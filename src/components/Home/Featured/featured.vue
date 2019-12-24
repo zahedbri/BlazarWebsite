@@ -6,6 +6,7 @@
                 <div class="back-heading">Featured</div>
                 <div class="front-heading">Featured Listings<hr></div>
             </div>
+
             <div class="cards">
                 <div class="card">
                     

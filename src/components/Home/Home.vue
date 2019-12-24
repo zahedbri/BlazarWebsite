@@ -8,6 +8,9 @@
     <!-- Featured Section -->
     <home-featured></home-featured>
 
+    <!-- Popular Section -->
+    <home-popular></home-popular>    
+
   </div>
 
 
@@ -17,12 +20,14 @@
 <script>
 
 import Hero from "./Hero/hero.vue";
-import Featured from "./Featured/featured.vue"
+import Featured from "./Featured/featured.vue";
+import Popular from "./Popular/popular.vue";
 
 export default {
     components:{
         "home-hero":Hero,
-        "home-featured":Featured
+        "home-featured":Featured,
+        "home-popular":Popular,
     }
   
 }
