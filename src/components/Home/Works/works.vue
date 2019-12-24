@@ -3,7 +3,7 @@
         <div class="content">
             <div class="header">
                 <div class="back-heading">It's easy</div>
-                <div class="front-heading">How ot Works<hr></div>
+                <div class="front-heading">How it Works<hr></div>
             </div>
             <div class="cards">
                 <div class="card">
@@ -45,10 +45,10 @@ export default {
 
 
 .content{
-    width: 90%;
+    width: 85%;
     height: 100%;
     margin: 0 auto;
-    padding: 10rem 5rem 5rem 5rem;
+    padding: 10rem 0 5rem 0;
 }
 
 .content .header{

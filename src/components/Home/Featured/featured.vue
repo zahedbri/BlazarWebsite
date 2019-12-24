@@ -11,7 +11,7 @@
                 <div class="card">
                     
                     <div class="card-img">
-                        <img src="../../../assets/background1.jpg" alt="photo">
+                        <img src="../../../assets/f1.jpg" alt="photo">
                         <div class="overlay">
                             <span class="featured-tag">Featured</span>
                             <span class="thumbs-up"><i class="fas fa-thumbs-up"></i></span>
@@ -48,7 +48,7 @@
 
                 <div class="card">
                     <div class="card-img">
-                        <img src="../../../assets/background1.jpg" alt="photo">
+                        <img src="../../../assets/f2.jpg" alt="photo">
                         <div class="overlay">
                             <span class="featured-tag">Featured</span>
                             <span class="thumbs-up"><i class="fas fa-thumbs-up"></i></span>
@@ -85,7 +85,7 @@
 
                 <div class="card">
                     <div class="card-img">
-                        <img src="../../../assets/background1.jpg" alt="photo">
+                        <img src="../../../assets/f3.jpg" alt="photo">
                         <div class="overlay">
                             <span class="featured-tag">Featured</span>
                             <span class="thumbs-up"><i class="fas fa-thumbs-up"></i></span>
@@ -141,10 +141,10 @@ export default {
 }
 
 .content{
-    width: 90%;
+    width: 85%;
     height: 100%;
     margin: 0 auto;
-    padding: 10rem 5rem 5rem 5rem;
+    padding: 10rem 0 5rem 0;
 }
 
 .content .header{

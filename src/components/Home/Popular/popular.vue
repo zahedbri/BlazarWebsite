@@ -8,49 +8,49 @@
             </div>
             <div class="gallery">
                 <div class="image">
-                    <img src="../../../assets/background1.jpg" alt="photo">
+                    <img src="../../../assets/p1.jpg" alt="photo">
                     <div class="overlay">
                         <h4>New York</h4>
                     </div>
                 </div>
                 <div class="image">
-                    <img src="../../../assets/background1.jpg" alt="photo">
+                    <img src="../../../assets/p2.jpg" alt="photo">
                     <div class="overlay">
                         <h4>New York</h4>
                     </div>
                 </div>
                 <div class="image">
-                    <img src="../../../assets/background1.jpg" alt="photo">
+                    <img src="../../../assets/p3.jpg" alt="photo">
                     <div class="overlay">
                         <h4>New York</h4>
                     </div>
                 </div>
                 <div class="image">
-                    <img src="../../../assets/background1.jpg" alt="photo">
+                    <img src="../../../assets/p4.jpg" alt="photo">
                     <div class="overlay">
                         <h4>New York</h4>
                     </div>
                 </div>
                 <div class="image">
-                    <img src="../../../assets/background1.jpg" alt="photo">
+                    <img src="../../../assets/p5.jpg" alt="photo">
                     <div class="overlay">
                         <h4>New York</h4>
                     </div>
                 </div>
                 <div class="image">
-                    <img src="../../../assets/background1.jpg" alt="photo">
+                    <img src="../../../assets/p6.jpg" alt="photo">
                     <div class="overlay">
                         <h4>New York</h4>
                     </div>
                 </div>
                 <div class="image">
-                    <img src="../../../assets/background1.jpg" alt="photo">
+                    <img src="../../../assets/p6.jpg" alt="photo">
                     <div class="overlay">
                         <h4>New York</h4>
                     </div>
                 </div>
                 <div class="image">
-                    <img src="../../../assets/background1.jpg" alt="photo">
+                    <img src="../../../assets/p8.jpg" alt="photo">
                     <div class="overlay">
                         <h4>New York</h4>
                     </div>
@@ -73,10 +73,10 @@ export default {
 }
 
 .content{
-    width: 90%;
+    width: 85%;
     height: 100%;
     margin: 0 auto;
-    padding: 10rem 5rem 5rem 5rem;
+    padding: 10rem 0 5rem 0;
 }
 
 .content .header{

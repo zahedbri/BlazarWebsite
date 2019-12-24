@@ -63,7 +63,6 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* padding: 3rem; */
 }
 
 img{

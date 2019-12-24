@@ -77,10 +77,10 @@ export default {
 }
 
 .content{
-  width: 90%;
+  width: 85%;
   height: 100%;
   margin: 0 auto;
-  padding: 10rem 5rem 5rem 5rem;
+  padding: 10rem 0 5rem 0;
 }
 
 .content .header{
