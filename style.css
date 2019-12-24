@@ -1,10 +1,13 @@
 /* Adding the Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
 
 :root {
     --primaryFont:'Poppins', sans-serif;
     --hoverColor:#4a90e2;
     --primaryColor:#4b5966;
+    --secondaryFont:'Open Sans', sans-serif;
+    --accentColor:#53666D;
 }
 
 
