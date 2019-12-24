@@ -37,6 +37,7 @@
             </nav>
             <button class="register"><i class="fas fa-unlock"></i> Sign In/Register</button>
             <button class="createListing">Create a Listing</button>
+            <button class="hamburger-menu">Menu<i class="fas fa-bars"></i></button>
         </header>
     </div>
 </template>
@@ -169,6 +170,32 @@ header .createListing:hover {
    border-color:  rgba(255,255,255,1);
 }
 
+/* Styling the Hamburger Menu */
+header .hamburger-menu{
+    display: none;
+    background:none;
+    font-family: var(--primaryFont);
+    border:none;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 0.6rem;
+    text-transform: uppercase;
+}
+
+header .hamburger-menu i {
+    font-size: 2.5rem;
+    vertical-align: middle;
+    margin-left: 0.8rem;
+}
+
+header .hamburger-menu:hover{
+    color: var(--hoverColor);
+    background-color: white; 
+    font-weight: 600;
+}
 
 
 </style>
