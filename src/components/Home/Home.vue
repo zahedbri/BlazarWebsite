@@ -10,6 +10,8 @@
             Find a product,service,or company you're looking for.
         </p>
       </div>
+
+      <app-search-box></app-search-box>
   
   </div>
 </template>
@@ -17,11 +19,13 @@
 
 <script>
 
-import Header from "./HomeComponents/header"
+import Header from "./HomeComponents/header";
+import SearchBox from "./HomeComponents/searchBox";
 
 export default {
     components:{
-        "app-header":Header
+        "app-header":Header,
+        "app-search-box":SearchBox
     }
   
 }
