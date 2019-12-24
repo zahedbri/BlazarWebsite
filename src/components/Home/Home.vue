@@ -1,7 +1,7 @@
 <template>
   <div id="home">
       <!-- <div class="overlay"></div> -->
-      <app-header></app-header>
+      <home-header></home-header>
       
       <div class="herobox">
         <h2>Welcome to the <span>Ultimate</span> Buisness Directory</h2>
@@ -11,8 +11,9 @@
         </p>
       </div>
 
-      <app-search-box></app-search-box>
-  
+      <home-search-box></home-search-box>
+      <home-gradient></home-gradient>
+      
   </div>
 </template>
 
@@ -21,11 +22,13 @@
 
 import Header from "./HomeComponents/header";
 import SearchBox from "./HomeComponents/searchBox";
+import Gradient from "./HomeComponents/gradient";
 
 export default {
     components:{
-        "app-header":Header,
-        "app-search-box":SearchBox
+        "home-header":Header,
+        "home-search-box":SearchBox,
+        "home-gradient":Gradient
     }
   
 }
@@ -35,7 +38,7 @@ export default {
 <style scoped>
 #home{
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     background: url("../../assets/background2.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -60,7 +63,7 @@ export default {
     color: white;
     z-index: 30;
     position: absolute;
-    top: 35%;
+    top: 28%;
     left: 8%;
 }
 
