@@ -32,7 +32,7 @@ export default {
 #home{
     width: 100%;
     height: 100vh;
-    background: url("../../assets/background1.jpg");
+    background: url("../../assets/background2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
