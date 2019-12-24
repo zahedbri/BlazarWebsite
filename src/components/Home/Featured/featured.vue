@@ -251,15 +251,16 @@ export default {
     margin-bottom: 2rem;
 }
 
-.cards .card .card-text hr {
+/* .cards .card .card-text hr {
     margin: 0 auto;
-}
+} */
 
 .cards .card .card-text .card-footer {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 1rem 1rem 1rem;
 }
+
 .cards .card .card-text .card-footer h5{
     font-size:1.2rem;
     color: red;

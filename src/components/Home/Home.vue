@@ -11,6 +11,15 @@
     <!-- Popular Section -->
     <home-popular></home-popular>    
 
+    <!-- Works Section -->
+    <home-works></home-works>
+
+    <!-- Blogs Section -->
+    <home-blogs></home-blogs>
+    
+    <!-- Footer Section -->
+    <home-footer></home-footer>
+
   </div>
 
 
@@ -22,12 +31,18 @@
 import Hero from "./Hero/hero.vue";
 import Featured from "./Featured/featured.vue";
 import Popular from "./Popular/popular.vue";
+import Works from "./Works/works.vue";
+import Blogs from "./Blogs/blogs.vue";
+import Footer from "../Shared/footer.vue";
 
 export default {
     components:{
         "home-hero":Hero,
         "home-featured":Featured,
         "home-popular":Popular,
+        "home-works":Works,
+        "home-blogs":Blogs,
+        "home-footer":Footer
     }
   
 }
@@ -37,8 +52,9 @@ export default {
 <style scoped>
 
 #Home{
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
+
   
 </style>
