@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <app-home></app-home>
+    <!-- <app-home></app-home> -->
+    <app-pricing></app-pricing>
   </div>
 </template>
 
 
 <script>
 import Home from "./components/Home/Home.vue";
+import Pricing from "./components/Pricing/Pricing.vue";
 
 export default {
   components:{
-    "app-home":Home
+    "app-home":Home,
+    "app-pricing":Pricing
   }
 }
 </script>
@@ -19,9 +22,9 @@ export default {
 <style>
 
 #app{
-  height:100%;
   width: 100%;
-  background-color: rgba(0,0,0,0.04)
+  height:100%;
 }
+
   
 </style>

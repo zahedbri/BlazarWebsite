@@ -1,7 +1,7 @@
 <template>
     <div class="navigation">
         <header>
-            <img src="../../../assets/logo2.png" alt="Logo">
+            <img src="../../assets/logo2.png" alt="Logo">
             <nav>
                 <ul>
                     <li>

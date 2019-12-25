@@ -22,7 +22,7 @@
 
 <script>
 
-import Header from "./header";
+import Header from "../../Shared/header";
 import SearchBox from "./HomeHeroSearchBox";
 import Gradient from "./HomeHeroGradient";
 

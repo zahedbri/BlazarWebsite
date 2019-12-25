@@ -4,9 +4,9 @@
 
 :root {
     --primaryFont:'Poppins', sans-serif;
+    --secondaryFont:'Open Sans', sans-serif;
     --hoverColor:#4a90e2;
     --primaryColor:#4b5966;
-    --secondaryFont:'Open Sans', sans-serif;
     --accentColor:#53666D;
 }
 
@@ -22,8 +22,9 @@ html{
 }
 
 body{
-    height: 100%;
     width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.04);
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
