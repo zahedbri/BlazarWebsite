@@ -2,7 +2,7 @@
  
     <section id="Hero">
 
-        <home-header></home-header>
+        <!-- <home-header></home-header> -->
         
         <div class="herobox">
             <h2>Welcome to the <span>Ultimate</span> Buisness Directory</h2>

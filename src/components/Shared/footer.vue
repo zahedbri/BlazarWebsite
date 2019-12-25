@@ -39,7 +39,8 @@ export default {
     width: 100%;   
     background-color: white;
     padding: 5rem 0;
-    margin-top: 10rem;
+    margin-top: 8rem;
+
 }
 
 footer{

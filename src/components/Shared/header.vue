@@ -55,6 +55,8 @@ export default {
     width: 100%;
     padding: 2rem;
     z-index: 50;
+    position: absolute;
+    top: 0;
 }
 
 header{

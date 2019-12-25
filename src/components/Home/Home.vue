@@ -23,10 +23,6 @@
     <!-- Blogs Section -->
     <home-blogs></home-blogs>
 
-
-    <!-- Footer Section -->
-    <!-- <home-footer></home-footer> -->
-
   </div>
 
 
@@ -42,7 +38,6 @@ import Reviews from "./Reviews/HomeReviews.vue";
 import Works from "./Works/HomeWorks.vue";
 import Qualities from "./Qualities/HomeQualities.vue";
 import Blogs from "./Blogs/HomeBlogs.vue";
-// import Footer from "../Shared/footer.vue";
 
 export default {
     components:{
@@ -61,11 +56,11 @@ export default {
 
 
 <style scoped>
-
+/* 
 #Home{
   width: 100%;
   height: 100%;
-}
+} */
 
   
 </style>

@@ -12,7 +12,7 @@
                         <div class="share"><i class="fas fa-share-alt"></i></div>
                     </div>
                     <div class="card-img">
-                        <img src="../../../assets/background1.jpg" alt="photo">
+                        <img src="../../../assets/blog1.jpg" alt="photo">
                     </div>
                     <div class="card-text">
                         <h5>December 24, 2019 8:57pm</h5>
@@ -30,7 +30,7 @@
                         <div class="share"><i class="fas fa-share-alt"></i></div>
                     </div>
                     <div class="card-img">
-                        <img src="../../../assets/background1.jpg" alt="photo">
+                        <img src="../../../assets/blog2.jpg" alt="photo">
                     </div>
                     <div class="card-text">
                         <h5>December 24, 2019 8:57pm</h5>
@@ -48,7 +48,7 @@
                         <div class="share"><i class="fas fa-share-alt"></i></div>
                     </div>
                     <div class="card-img">
-                        <img src="../../../assets/background1.jpg" alt="photo">
+                        <img src="../../../assets/blog3.jpg" alt="photo">
                     </div>
                     <div class="card-text">
                         <h5>December 24, 2019 8:57pm</h5>
