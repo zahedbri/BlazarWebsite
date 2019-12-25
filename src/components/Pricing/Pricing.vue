@@ -1,5 +1,5 @@
 <template>
-    <div id="Pricing">
+    <section id="Pricing">
         <pricing-header></pricing-header>
         
         <div class="container">
@@ -64,7 +64,7 @@
         <pricing-footer></pricing-footer>
 
 
-    </div>
+    </section>
 </template>
 
 <script>
