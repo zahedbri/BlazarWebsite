@@ -23,8 +23,8 @@
 <script>
 
 import Header from "./header";
-import SearchBox from "./searchBox";
-import Gradient from "./gradient";
+import SearchBox from "./HomeHeroSearchBox";
+import Gradient from "./HomeHeroGradient";
 
 
 export default {

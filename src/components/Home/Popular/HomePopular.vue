@@ -121,7 +121,10 @@ export default {
     width: 100%;
     height: 100%;
     border-radius: 4px;
+    transition: all 0.6s ease-in; 
 }
+
+
 
 .content .gallery .image .overlay{
     position: absolute;
@@ -132,7 +135,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.6s ease;
+    transition: all 0.1s ease;
 }
 
 .content .gallery .image .overlay h4{
@@ -143,6 +146,9 @@ export default {
 
 
 /* Adding the Hover Effects */
+.content .gallery .image:hover img{
+    transform: scale(1.5);
+}
 .content .gallery .image:hover .overlay{
     /* background-color: rgba(35,123,160,0.5); */
     background-color: rgba(0,0,0,0.5);

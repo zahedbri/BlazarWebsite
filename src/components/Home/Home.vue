@@ -28,11 +28,11 @@
 
 <script>
 
-import Hero from "./Hero/hero.vue";
-import Featured from "./Featured/featured.vue";
-import Popular from "./Popular/popular.vue";
-import Works from "./Works/works.vue";
-import Blogs from "./Blogs/blogs.vue";
+import Hero from "./Hero/Homehero.vue";
+import Featured from "./Featured/HomeFeatured.vue";
+import Popular from "./Popular/HomePopular.vue";
+import Works from "./Works/HomeWorks.vue";
+import Blogs from "./Blogs/HomeBlogs.vue";
 import Footer from "../Shared/footer.vue";
 
 export default {
