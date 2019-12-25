@@ -1,8 +1,6 @@
 <template>
-    <section id="Pricing">
-        <pricing-header></pricing-header>
-        
-        <div class="container">
+    <section id="Pricing">        
+        <div class="content">
 
             <div class="header">
                 <h2>Pricing</h2>
@@ -60,61 +58,52 @@
             </div>
 
         </div>
-
-        <pricing-footer></pricing-footer>
-
-
+        
     </section>
 </template>
 
 <script>
 
-import Header from "../Shared/header";
-import Footer from "../Shared/footer.vue";
-
 export default {
-    components:{
-        "pricing-header":Header,
-        "pricing-footer":Footer
-    }
-    
+
 }
+
 </script>
 
 <style scoped>
 
-.container{
+.content{
     width: 85%;
-    margin: 12rem auto;
+    margin: 8rem auto;
 }
 
 
 /* Styling the Header */
-.container .header{
- text-align: center
+.content .header{
+    text-align: center
 }
 
-.container .header h2 {
-    font-size: 3rem;
-    font-weight: 500;
+.content .header h2 {
+    font-size: 2.8rem;
+    font-weight: 400;
     color: var(--accentColor);
 }
 
-.container .header hr{
+.content .header hr{
     width: 6rem;
     margin: 0.8rem auto;
     border-bottom: 1px solid var(--hoverColor);
 }
 
 /* Styling the Card section */
-.container .pricing-cards{
+.content .pricing-cards{
     margin-top: 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 2rem;
 }
 
-.container .pricing-cards .pricing-card{
+.content .pricing-cards .pricing-card{
     background-color: white;
     text-align: center;
     padding: 3rem;
@@ -124,22 +113,22 @@ export default {
 
 
 /* Styling the Card header */
-.container .pricing-cards .pricing-card .card-header h4 {
+.content .pricing-cards .pricing-card .card-header h4 {
     font-size: 1.8rem;
     font-weight: 500;
 }
 
-.container .pricing-cards .pricing-card .card-header img {
+.content .pricing-cards .pricing-card .card-header img {
     margin-top: 2.5rem;
 }
 
-.container .pricing-cards .pricing-card .card-header h3 {
+.content .pricing-cards .pricing-card .card-header h3 {
     margin-top: 2rem;
     font-size: 3.5rem;
     font-weight: 500;
 }
 
-.container .pricing-cards .pricing-card .card-header p {
+.content .pricing-cards .pricing-card .card-header p {
     margin: 2rem auto;
     font-size: 1.6rem;
     max-width: 70%;
@@ -147,12 +136,12 @@ export default {
 
 
 /* Styling the Card Body */
-.container .pricing-cards .pricing-card .card-body p {
+.content .pricing-cards .pricing-card .card-body p {
     font-size: 1.4rem;
     margin-bottom: 0.8rem;
 }
 
-.container .pricing-cards .pricing-card .card-body button {
+.content .pricing-cards .pricing-card .card-body button {
     margin-top: 4rem;
     background: none;
     outline:none;
@@ -166,24 +155,24 @@ export default {
     transition: all 0.4s ease;
 }
 
-.container .pricing-cards .pricing-card .card-body button:hover {
+.content .pricing-cards .pricing-card .card-body button:hover {
     background-color: var(--primaryColor);
     color: white;
 }
 
 
 /* Styling the Ultimate pricing Card */
-.container .pricing-cards .ultimate{
+.content .pricing-cards .ultimate{
     color: white;
     background-color: #4e94b1;
 }
 
-.container .pricing-cards .ultimate .card-body button {
+.content .pricing-cards .ultimate .card-body button {
     color: white;
     border-color: white;
 }
 
-.container .pricing-cards .ultimate .card-body button:hover {
+.content .pricing-cards .ultimate .card-body button:hover {
     background-color: white;
     color: var(--hoverColor);
 }

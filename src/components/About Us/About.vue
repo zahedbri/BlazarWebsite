@@ -101,8 +101,7 @@ export default {
 <style scoped>
 .content{
     width: 85%;
-    margin: 0 auto;
-    padding:8rem 0 5rem 0;
+    margin: 8rem auto;
     color: var(--accentColor);
 }    
 
