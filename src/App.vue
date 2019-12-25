@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <!-- <app-home></app-home> -->
+    <app-home></app-home>
     <!-- <app-pricing></app-pricing> -->
     <!-- <app-about></app-about> -->
-    <app-faq></app-faq>
+    <!-- <app-faq></app-faq> -->
 
   </div>
 </template>
