@@ -11,7 +11,7 @@
                 <div class="card">
                     
                     <div class="card-img">
-                        <img src="../../../assets/f1.jpg" alt="photo">
+                        <img @click="toFeatured" src="../../../assets/f1.jpg" alt="photo">
                         <div class="overlay">
                             <span class="featured-tag">Featured</span>
                             <span class="thumbs-up"><i class="fas fa-thumbs-up"></i></span>
@@ -48,7 +48,7 @@
 
                 <div class="card">
                     <div class="card-img">
-                        <img src="../../../assets/f2.jpg" alt="photo">
+                        <img @click="toFeatured" src="../../../assets/f2.jpg" alt="photo">
                         <div class="overlay">
                             <span class="featured-tag">Featured</span>
                             <span class="thumbs-up"><i class="fas fa-thumbs-up"></i></span>
@@ -85,7 +85,7 @@
 
                 <div class="card">
                     <div class="card-img">
-                        <img src="../../../assets/f3.jpg" alt="photo">
+                        <img @click="toFeatured" src="../../../assets/f3.jpg" alt="photo">
                         <div class="overlay">
                             <span class="featured-tag">Featured</span>
                             <span class="thumbs-up"><i class="fas fa-thumbs-up"></i></span>
@@ -129,7 +129,12 @@
 
 <script>
 export default {
-    
+    methods:{
+        toFeatured:function(){
+            this.$router.push({path:"/Featured"});
+        }
+
+    }
 }
 </script>
 
@@ -178,9 +183,20 @@ export default {
     grid-column-gap: 1.5rem; 
 }
 
+.cards .card {
+    transition: all 0.4s ease-out;
+}
+
 .cards .card .card-img{
     position: relative;
 }
+
+
+/* Adding the Card Hover Effect */
+.cards .card:hover {
+    transform: scale(1.05);
+}
+
 
 /* Styling the Image Overlay Content */
 .cards .card .card-img .overlay .featured-tag{
