@@ -1,7 +1,7 @@
 <template>
     <div class="navigation">
         <header>
-            <img src="../../assets/logo2.png" alt="Logo">
+            <span @click="homeStyle"><router-link to="/"><img src="../../assets/logo.png" alt="Logo"></router-link></span>
             <nav>
                 <ul>
                     <li>
@@ -12,9 +12,9 @@
                         </ul>
                     </li>
                     
-                    <li>
+                    <li >
                         <a href="#">Explore <i class="fas fa-angle-down"></i></a>
-                        <ul class="dropdown">
+                        <ul class="dropdown" >
                             <li><a href="#">Beauty</a></li>
                             <li><a href="#">Catering</a></li>
                             <li><a href="#">Finances</a></li>
@@ -26,9 +26,9 @@
                     <li>
                         <a href="#">Help <i class="fas fa-angle-down"></i></a>
                         <ul class="dropdown">
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">FAQ</a></li>
+                            <li><router-link to="/Pricing">Pricing</router-link></li>
+                            <li><router-link to="/About">About Us</router-link></li>
+                            <li><router-link to="/Faq">FAQ</router-link></li>
                         </ul>
                     </li>
 
@@ -45,7 +45,11 @@
 
 <script>
 export default {
+    data(){
+        return{
 
+        };
+    }
 }
 </script>
 
@@ -55,7 +59,7 @@ export default {
     width: 100%;
     padding: 2rem;
     z-index: 50;
-    position: absolute;
+    background-color: white;
     top: 0;
 }
 
@@ -67,8 +71,11 @@ header{
     align-items: center;
 }
 
-img{
+header span{
     margin-right: auto;
+}
+
+header span a img{
     cursor: pointer;
 }
 
@@ -88,7 +95,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--primaryColor);
     font-size: 1.4rem;
     font-weight: 600;
 }
@@ -106,6 +113,7 @@ nav ul li .dropdown {
     width: 16rem;
     background-color:white;
     padding: 1.5rem;
+    z-index: 50;
 
 }
 
@@ -116,7 +124,7 @@ nav ul li .dropdown li{
 }
 
 nav ul li .dropdown li a {
-    color:grey;
+    color:var(--primaryColor);
 }
 
 nav ul li .dropdown li a:hover{
@@ -145,7 +153,7 @@ header .register{
     padding: 1rem;
     font-family: var(--primaryFont);
     font-weight: 600;
-    color: white;
+    color:var(--primaryColor);
     cursor: pointer;
     margin-right: 1.5rem;
 }
@@ -161,14 +169,15 @@ header .createListing {
     padding: 1rem;
     font-family: var(--primaryFont);
     font-weight: 600;
-    color: white;
-    border: 2px solid rgba(255,255,255,0.7);
+    color: var(--hoverColor);
+    border: 2px solid var(--hoverColor);
     border-radius: 5px;
     cursor: pointer;
 }
 
 header .createListing:hover {
-   border-color:  rgba(255,255,255,1);
+   background-color: var(--hoverColor);
+   color: white;
 }
 
 /* Styling the Hamburger Menu */
@@ -197,6 +206,9 @@ header .hamburger-menu:hover{
     background-color: white; 
     font-weight: 600;
 }
+
+
+
 
 
 </style>

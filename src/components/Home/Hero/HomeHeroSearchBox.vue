@@ -42,7 +42,7 @@ export default {
 
 .searchBox{
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
     display: grid;
