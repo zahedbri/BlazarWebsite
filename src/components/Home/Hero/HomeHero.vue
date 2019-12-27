@@ -1,18 +1,20 @@
 <template>
  
     <section id="Hero">
-
-        <!-- <home-header></home-header> -->
         
-        <div class="herobox">
-            <h2>Welcome to the <span>Ultimate</span> Buisness Directory</h2>
-            <p>
-                This is the <span>premium Destination</span> for decison makers.<br>
-                Find a product,service,or company you're looking for.
-            </p>
+        <div class="content">
+          
+            <div class="herobox">
+                <h2>Welcome to the <span>Ultimate</span> Buisness Directory</h2>
+                <p>
+                    This is the <span>premium Destination</span> for decison makers.<br>
+                    Find a product,service,or company you're looking for.
+                </p>
+            </div>
+
+            <home-search-box></home-search-box>
         </div>
 
-        <home-search-box></home-search-box>
         <home-gradient></home-gradient>
      
     </section>
@@ -49,26 +51,20 @@ export default {
     background-attachment: fixed;
     background-size: 100% 100%;
     position: relative;
-    z-index: 10;
 }
 
-/* .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+.content{
+    width: 85%;
     height: 100%;
-    background-color: rgba(0,0,0,0.01);
-    z-index: 20;
-
-} */
+    margin: 0 auto;
+    position: relative;
+}
 
 .herobox{
     color: white;
     z-index: 30;
     position: absolute;
-    top: 28%;
-    left: 8%;
+    top: 15%;
 }
 
 .herobox h2 {

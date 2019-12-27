@@ -42,12 +42,11 @@ export default {
 
 .searchBox{
     position: absolute;
-    top: 70%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%,-50%);
     display: grid;
-    width: 55%;
-    /* height: 10%; */
+    width: 65%;
     grid-template-columns: 4fr 2fr 2fr;   
     color: var(--primaryColor);
     background-color:white;
@@ -57,7 +56,7 @@ export default {
 .category,.location,.search{
     width: 100%;
     height: 100%;
-    padding: 1.5rem;
+    padding: 1.4rem;
     transition: all 0.3s ease;
 }
 

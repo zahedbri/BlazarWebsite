@@ -57,7 +57,7 @@ export default {
 
 .navigation{
     width: 100%;
-    padding: 2rem;
+    padding: 2rem 0;
     z-index: 50;
     background-color: white;
     top: 0;
