@@ -2,7 +2,7 @@
   <div id="app">
     <app-header></app-header>
     
-    <transition>
+    <transition name="fade">
       <router-view></router-view>
     </transition>
     
@@ -34,8 +34,19 @@ export default {
 }
 
 /* Adding the transition animation */
+.fade-enter{
+  opacity: 0;
+  height: 0%;
+}
 
+.fade-enter-active{
+  transition: all 4s ease-in forwards; 
+  height: 100%;
+}
 
+.fade-leave-active{
+  opacity: 0;
+}
 
   
 </style>

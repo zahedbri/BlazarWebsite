@@ -6,9 +6,10 @@
                <legend>Leave your Review</legend>
                <form>
                    <input type="text" placeholder="Title of your Review*">
-                   <input type="text" placeholder="Enter your Name*">
-                   <input type="email" placeholder="Your Email*">
-                   
+                   <div class="row">
+                        <input type="text" placeholder="Enter your Name*">
+                        <input type="email" placeholder="Your Email*">
+                    </div>   
                    <div class="comment">
                         <textarea cols="30" rows="10" placeholder="Your Review*"></textarea>
                         <i class="fas fa-paper-plane"></i>
@@ -52,6 +53,12 @@ export default {
     border: none;
     outline: none;
     border-radius: 4px;
+}
+
+.write-comments form .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
 }
 
 .write-comments form .comment {
