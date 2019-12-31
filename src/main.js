@@ -15,8 +15,13 @@ const router = new VueRouter({
   }
 });
 
+
+// Setting Up Vuex For State Managemet
+import {store} from "./Store/store";
+
 new Vue({
   el: '#app',
   router:router,
+  store,
   render: h => h(App)
 })
