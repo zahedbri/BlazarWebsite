@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <app-header></app-header>
+    <!-- <app-header></app-header> -->
     
-    <transition name="fade">
+    <app-results></app-results>
+    <!-- <transition name="fade">
       <router-view></router-view>
-    </transition>
+    </transition> -->
     
-    <app-footer></app-footer>
+    <!-- <app-footer></app-footer> -->
   </div>
 </template>
 
@@ -15,11 +16,13 @@
 
 import Header from "./components/Shared/header.vue";
 import Footer from "./components/Shared/footer.vue";
+import Results from "./components/Results/Results.vue";
 
 export default {
   components:{
     "app-header":Header,
-    "app-footer":Footer
+    "app-footer":Footer,
+    "app-results":Results
   }
 }
 </script>

@@ -4,6 +4,7 @@ import About from "./components/About Us/About.vue";
 import Faq from "./components/FAQ/Faq.vue";
 import Featured from "./components/Featured/Featured.vue";
 import Blog from "./components/Blogs/Blog.vue";
+import Results from "./components/Results/Results.vue";
 
 export const routes=[
     {path:"",component:Home},
@@ -12,5 +13,6 @@ export const routes=[
     {path:"/About",component:About},
     {path:"/Featured",component:Featured},
     {path:"/Blog",component:Blog},
+    {path:"/Results",component:Results},
     {path:"*",redirect:'/'}
 ]

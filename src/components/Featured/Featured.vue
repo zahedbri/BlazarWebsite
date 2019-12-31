@@ -17,15 +17,13 @@
 </template>
 
 <script>
-import Comments from "../Shared/comment";
 import MainArea from "./FeaturedMainArea";
 import SideArea from "./FeaturedSideArea";
 
 export default {
     components:{
         "main-area":MainArea,
-        "side-area":SideArea,
-        "app-comments":Comments
+        "side-area":SideArea
     }
     
 }

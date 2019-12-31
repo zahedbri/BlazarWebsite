@@ -78,8 +78,12 @@
 </template>
 
 <script>
+import Comments from "../Shared/comment";
+
 export default {
-    
+    components:{
+        "app-comments":Comments
+    }
 }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
  
     <section id="Hero">
-        
+        <div class="overlay"></div>
         <div class="content">
           
             <div class="herobox">
@@ -47,24 +47,34 @@ export default {
     height: 130vh;
     background: url("../../../assets/background2.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-attachment: fixed;
     background-size: 100% 100%;
     position: relative;
 }
 
+.overlay {
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color:rgba(0,0,0,0.4); */
+}
+
 .content{
     width: 85%;
     height: 100%;
+    z-index: 30;
     margin: 0 auto;
     position: relative;
 }
 
+
 .herobox{
     color: white;
-    z-index: 30;
     position: absolute;
-    top: 15%;
+    top: 18%;
 }
 
 .herobox h2 {

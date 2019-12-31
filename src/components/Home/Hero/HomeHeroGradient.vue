@@ -25,6 +25,7 @@ export default {
     bottom: 0;
     left: 0;
     padding: 4rem;
+    z-index: 30;
 }
 
 .gradient .list-links{
